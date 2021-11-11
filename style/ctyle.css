@@ -1,0 +1,179 @@
+/**{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+} */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.nav-li{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.nav-li:not(:last-of-type){
+  margin-right: 90px;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: #FA4A0C;
+}
+
+.app{
+  background-image: url("../img/bg1.png");
+  color: white;
+  text-align: center;
+  padding: 80px 0 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app-pretitle{
+  font-weight:bold;
+  Font-size: 24px;
+  Line-height: 36px;
+}
+
+.app-title {
+  font-weight:bold;
+  font-size: 58px;
+  line-height: 80px;
+  max-width: 750px;
+  margin: 10px auto;
+}
+
+.app-text{
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 54px;
+}
+
+.button{
+  width: 236px;
+  height: 68px;
+  color: white;
+  border-radius: 30px;
+  font-weight:bold;
+  font-size: 24px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.button:first-of-type{
+  background: #FA4A0C;
+  border: 1px solid #FA4A0C;
+  margin-right: 67px;
+
+}
+
+.button:last-of-type{
+  background: none;
+  border: 1px solid white;
+}
+
+.order{
+  background-image: url(../img/Rectangle\ 47.png);
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 141px 0 130px;
+}
+
+.order-title{
+  font-weight:bold;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.order-text{
+  font-size: 24px;
+  line-height: 38px;
+  margin: 10px 0 60px;
+}
+
+.order-button{
+  height: 64px;
+  line-height: 28px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.order-button:first-of-type{
+  background: #FA4A0C;
+  border: 1px solid #FA4A0C;
+  width: 142px;
+  margin-right: 16px;
+}
+
+.order-button:last-of-type{
+  background: none;
+  border: 1px solid white;
+  width: 142px;
+}
+
+.How-title{
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  text-align: center;
+  margin: 56px 0 70px;
+}
+
+.mobile{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 110px;
+}
+
+.mobile-pretitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FA4A0C;
+}
+
+.mobile-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  max-width: 560px;
+}
+
+.mobile-text{
+  font-size: 24px;
+  line-height: 38px;
+  color: #737373;
+  max-width: 467px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto;
+}
